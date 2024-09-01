@@ -6,11 +6,10 @@ let contador = 0
 
 while(contador < Games.leght) {
   body.innerHTML += `<div>
-        <h1>games</h1>
-        <h2>nome</h2>
-        <p>lançamento</p>
-        <p>tema</p>
-        <p>plataforma</p>
-        <p>iade para jogar</p>
-        <p>jamal joga?</p>
+        <h1>${Games[contador].nomeCompletoDoJogo}</h1>
+        <p>lançamento:${Games[contador].Lançamento}</p>
+        <p>>Gêneros:${Games[contador].Gêneros}</p>
+        <p>plataforma:${Games[contador].Plataforma}</p>
+        <p>idade para jogar:${Games[contador].IdadePraJogar}</p>
+        <p>jamal joga?:${Games[contador].JamalJoga?}</p>
      </div>`
