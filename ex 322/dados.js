@@ -1,4 +1,4 @@
-export const pessoas = [
+export const Games = [
   { 
     nomeCompletoDoJogo: "Pokémon Sword",
     Lançamento: "15 de novembro de 2019",
